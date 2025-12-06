@@ -1,0 +1,317 @@
+[
+  {
+    "description": "    As a user\n    I want to register for an account\n    So that I can access the application",
+    "elements": [
+      {
+        "description": "",
+        "id": "registration-feature;validating-the-registration-feature",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Validating the Registration Feature",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1631496300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the registration page",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4025315800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter the name as \"Jeevan Maru\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109003000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter the phone number as \"9711111558\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62644399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter the email as \"jeevan@way2automation.com\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75856499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select the country as \"India\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62012999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter the city as \"Hyderabad\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62186200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I enter the username as \"Jeevan123\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60878600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter the password as \"Jeevan123\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63180299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click the register button",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3212258200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 80411500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "registration-feature;validating-the-registration-feature",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Validating the Registration Feature",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 289678700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I navigate to the registration page",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671437400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I enter the name as \"Rajareddy Maru\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76704300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I enter the phone number as \"9711191558\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64680500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I enter the email as \"information@way2automation.com\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60508700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select the country as \"Germany\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61312299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter the city as \"Berlin\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62634800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I enter the username as \"Raja123\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61309900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter the password as \"Raja123\"",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59535299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click the register button",
+            "match": {
+              "location": "src\\test\\step-definitions\\registration-step.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3089643899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 85399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 87373300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "registration-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registration Feature",
+    "tags": [],
+    "uri": "src\\test\\features\\registration.feature"
+  }
+]
